@@ -4,3 +4,7 @@ target/
 .idea/
 .vscode/
 *.iml
+.DS_Store
+.env
+db.properties
+src/main/resources/db.properties
