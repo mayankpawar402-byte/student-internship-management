@@ -1,9 +1,7 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Student Internship Management System</title>
 
     <style>
@@ -105,7 +103,7 @@
 
 <header>
     <h1>Student Internship Management System</h1>
-    <p>Manage internships and student applications efficiently</p>
+    <p>Manage your internship journey easily</p>
 </header>
 
 <div class="container">
@@ -140,7 +138,7 @@
                 internship applications.
             </p>
 
-            <a class="button" href="#">
+            <a class="button" href="login.jsp">
                 Login
             </a>
         </div>
@@ -153,7 +151,7 @@
                 from different companies.
             </p>
 
-            <a class="button" href="#">
+            <a class="button" href="internships.jsp">
                 View Internships
             </a>
         </div>
@@ -163,8 +161,9 @@
 </div>
 
 <footer>
-    <p>Student Internship Management System © 2026</p>
+    Student Internship Management System
 </footer>
 
 </body>
 </html>
+<!-- CI/CD test -->
