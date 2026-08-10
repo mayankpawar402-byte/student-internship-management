@@ -21,6 +21,13 @@ pipeline {
             }
         }
 
+        stage('Archive WAR') {
+            steps {
+                archiveArtifacts artifacts: 'target/*.war',
+                                 fingerprint: true
+            }
+        }
+
         stage('Deploy to Tomcat') {
             steps {
                 sh '''
@@ -53,4 +60,4 @@ pipeline {
             sh 'df -h /'
         }
     }
-}
+}    
